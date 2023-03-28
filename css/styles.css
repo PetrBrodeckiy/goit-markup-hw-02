@@ -96,8 +96,14 @@ body {
   font-style: normal;
 }
 
-.address-links .mailto,
-.address-links .phone-nmbr {
+.address-links .mailto {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--maincolor);
+}
+
+a[href="tel:+110001111111"] {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
