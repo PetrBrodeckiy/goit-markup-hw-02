@@ -105,7 +105,7 @@ body {
 
 .address-links .link:hover,
 .address-links .link:focus {
-  color: var(--logowebcolor);
+  color: var(--activebackbtncolor);
 }
 
 /* Перша секція / Hero */
@@ -208,8 +208,8 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--logowebcolor);
-  cursor: pointer;
   background-color: var(--secondarycolor);
+  cursor: pointer;
 }
 
 .btn:hover,
