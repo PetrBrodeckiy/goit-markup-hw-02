@@ -103,8 +103,8 @@ body {
   color: var(--maincolor);
 }
 
-.link:hover,
-.link:focus {
+.address-links .link:hover,
+.address-links .link:focus {
   color: var(--activebackbtncolor);
 }
 
