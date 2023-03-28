@@ -96,27 +96,15 @@ body {
   font-style: normal;
 }
 
-.address-links .mailto {
+.address-links {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--maincolor);
 }
 
-a[href="tel:+110001111111"] {
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--maincolor);
-}
-
-.address-links .mailto:hover,
-.address-links .mailto:focus {
-  color: var(--activebackbtncolor);
-}
-
-.address-links .phone-nmbr:hover,
-.address-links .phone-nmbr:focus {
+.mailto .phone-nmbr:hover,
+.mailto .phone-nmbr:focus {
   color: var(--activebackbtncolor);
 }
 
