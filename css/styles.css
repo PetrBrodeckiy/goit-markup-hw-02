@@ -85,10 +85,18 @@ body {
   color: var(--textcolor);
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--activebackbtncolor);
+}
+
 /* Contacts */
 
-.address-links .link {
+.adrs {
   font-style: normal;
+}
+
+.address-links .link {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -101,6 +109,10 @@ body {
 }
 
 /* Перша секція / Hero */
+
+.hero {
+  background-color: var(--textcolor);
+}
 
 .hero-title {
   font-weight: 700;
@@ -118,9 +130,15 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
+  font-family: var(--fontfamily);
   color: var(--backgroundcolor);
   background-color: var(--logowebcolor);
   cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--activebackbtncolor);
 }
 
 /* Друга секція / advantages */
@@ -149,12 +167,41 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--textcolor);
+}
+
+/* Четверта секція */
+
+.section-team {
+  background-color: var(--secondarycolor);
+}
+
+.headline-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--textcolor);
+}
+
+.subtitle {
+  font-family: var(--fontfamily);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--maincolor);
 }
 
 /* Перша секція Portfolio */
 
 .btn {
   font-weight: 500;
+  font-size: 16px;
+  font-family: var(--fontfamily);
   line-height: 1.5;
   display: flex;
   align-items: center;
@@ -162,6 +209,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--logowebcolor);
   cursor: pointer;
+  background-color: var(--secondarycolor);
 }
 
 .btn:hover,
@@ -171,10 +219,21 @@ body {
   background-color: var(--activebackbtncolor);
 }
 
+/* Друга секція Portfolio */
+
 /* Підвал */
+
+.foot-menu {
+  background-color: var(--textcolor);
+}
 
 .foot-menu > a {
   font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
