@@ -96,15 +96,21 @@ body {
   font-style: normal;
 }
 
-.address-links .link {
+.address-links .mailto,
+.address-links .phone-nmbr {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--maincolor);
 }
 
-.address-links .link:hover,
-.address-links .link:focus {
+.address-links .mailto:hover,
+.address-links .mailto:focus {
+  color: var(--activebackbtncolor);
+}
+
+.address-links .phone-nmbr:hover,
+.address-links .phone-nmbr:focus {
   color: var(--activebackbtncolor);
 }
 
@@ -184,7 +190,7 @@ body {
   background-color: var(--secondarycolor);
 }
 
-.team-img {
+.master-photo {
   background-color: var(--backgroundcolor);
 }
 
