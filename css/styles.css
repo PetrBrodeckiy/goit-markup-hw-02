@@ -177,6 +177,10 @@ body {
   background-color: var(--secondarycolor);
 }
 
+.team-img {
+  background-color: var(--backgroundcolor);
+}
+
 .headline-team {
   font-weight: 700;
   font-size: 36px;
