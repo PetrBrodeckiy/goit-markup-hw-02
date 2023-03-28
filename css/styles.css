@@ -149,6 +149,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--textcolor);
+  background-color: var(--backgroundcolor);
 }
 
 .text-title {
